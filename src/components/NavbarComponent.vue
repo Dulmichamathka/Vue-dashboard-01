@@ -44,6 +44,10 @@
           </v-avatar>
           <p class="white--text subheading mt-3 text-center">Dulmi Chamathka</p>
         </v-flex>
+
+        <v-flex class="mt-4 mb-4">
+          <PopUp />
+        </v-flex>
       </v-layout>
       <v-list flat>
         <v-list-item
@@ -66,6 +70,7 @@
 </template>
 
 <script>
+import PopUp from "./PopUp.vue";
 export default {
   data: () => ({
     drawer: true,
@@ -75,6 +80,10 @@ export default {
       { icon: "person", text: "Team", route: "/team" },
     ],
   }),
+
+  components: {
+    PopUp,
+  },
 };
 </script>
 
