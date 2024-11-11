@@ -40,7 +40,7 @@
       <v-layout column align-center>
         <v-flex class="mt-5">
           <v-avatar size="100">
-            <v-img src="/img2.jpg"></v-img>
+            <v-img src="/img6.jpg"></v-img>
           </v-avatar>
           <p class="white--text subheading mt-3 text-center">Dulmi Chamathka</p>
         </v-flex>

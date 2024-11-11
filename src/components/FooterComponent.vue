@@ -1,6 +1,13 @@
 <template>
   <v-footer dark padless app inset>
-    <v-cart class="flex" flat title color="#000066" :elevation="10">
+    <v-cart
+      class="flex"
+      flat
+      title
+      style="background-color: #4d4dff"
+      color="blue lighten-1"
+      :elevation="10"
+    >
       <v-card-text class="py-2 white--text text-center">
         {{ new Date().getFullYear() }} - <strong> techIdea</strong>
       </v-card-text>
